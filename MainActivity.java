@@ -13,9 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void onClick(View view) {
-        startActivity(new Intent("com.example.SegundaActivity"));
+    public void onClickRegistro(View view) {
+        Intent Registro = new Intent(this,SegundaActivity.class);
+        startActivity(Registro);
     }
+
     public void onClickLogin(View view) {
         startActivity(new Intent("com.example.TerceraActivity"));
     }
