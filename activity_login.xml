@@ -1,0 +1,102 @@
+# Proyecto_TM
+RODRIGOCHINCHAY,KELLYVERONICA,JOSEZUÑIGA
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondogradiant"
+    android:weightSum="10"
+    tools:context=".LoginActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1.7"
+            android:layout_height="0dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/icoz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="5.7"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/TextEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/icon_persona"
+                android:drawableLeft="@drawable/icon_persona"
+                android:drawablePadding="10dp"
+                android:hint="@string/correo"
+                android:inputType="textEmailAddress"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/negro"
+                android:textColorHint="@color/white"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/TextPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:drawableStart="@drawable/icon_password"
+
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="10dp"
+                android:hint="@string/contraseña"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/negro"
+                android:textColorHint="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnIniciarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/sign_inLog"
+                android:textColor="@color/negro" />
+            <!---
+                        <Button
+                            android:id="@+id/btninvitado"
+                            android:textAllCaps="false"
+                            android:textColor="@color/negro"
+                            android:background="@drawable/botonnegro"
+                            android:text="@string/invitado"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="16dp"
+                            android:layout_height="wrap_content" />
+-->
+                    </LinearLayout>
+
+                </LinearLayout>
