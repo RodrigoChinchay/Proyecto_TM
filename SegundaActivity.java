@@ -101,7 +101,7 @@ public class SegundaActivity extends AppCompatActivity {
     public void onContinuar(){
         Log.d("mensajeFinal", "Su barra de progreso acaba de cargar");
     }
-ffffff
+
         public void onClickAtras(View view) {
         Intent Atras = new Intent(this,MainActivity.class);
         startActivity(Atras);
